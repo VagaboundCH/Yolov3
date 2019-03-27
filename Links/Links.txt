@@ -1,0 +1,53 @@
+Tutorial:
+https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
+
+Grafik zum Tutorial:
+https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b
+https://github.com/ayooshkathuria/YOLO_v3_tutorial_from_scratch
+
+
+
+Dataloader Example:
+https://www.kaggle.com/mlagunas/naive-unet-with-pytorch-tensorboard-logging
+
+
+
+cfg Darknet:
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+<<<<<<< HEAD
+
+
+
+Transposed Convolution:
+https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
+=======
+
+
+>>>>>>> master
+
+Transposed Convolution:
+https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
+
+
+import time
+t = time.process_time()
+elapsed_time = time.process_time() - t
+print(elapsed_time)
+
+import time
+
+
+t = time.process_time()
+elapsed_time = time.process_time() - t
+print(elapsed_time)
+
+Transposed Convolution:
+https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
+
+Autonomous driving - Car detection:
+<<<<<<< HEAD
+https://datascience-enthusiast.com/DL/Autonomous_driving_Car_detection.html
+=======
+https://datascience-enthusiast.com/DL/Autonomous_driving_Car_detection.html
+
+>>>>>>> master
