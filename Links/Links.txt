@@ -14,40 +14,38 @@ https://www.kaggle.com/mlagunas/naive-unet-with-pytorch-tensorboard-logging
 
 cfg Darknet:
 https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
-<<<<<<< HEAD
 
 
 
-Transposed Convolution:
-https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
-=======
-
-
->>>>>>> master
 
 Transposed Convolution:
 https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
 
 
-import time
-t = time.process_time()
-elapsed_time = time.process_time() - t
-print(elapsed_time)
-
-import time
-
-
-t = time.process_time()
-elapsed_time = time.process_time() - t
-print(elapsed_time)
-
-Transposed Convolution:
-https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
 
 Autonomous driving - Car detection:
-<<<<<<< HEAD
-https://datascience-enthusiast.com/DL/Autonomous_driving_Car_detection.html
-=======
 https://datascience-enthusiast.com/DL/Autonomous_driving_Car_detection.html
 
->>>>>>> master
+
+
+9 Optional Intersection over Union & Non max Suppression
+https://www.youtube.com/watch?v=ZraYartQ9AU
+
+
+
+import time
+t = time.process_time()
+elapsed_time = time.process_time() - t
+print(elapsed_time)
+
+import time
+
+
+t = time.process_time()
+elapsed_time = time.process_time() - t
+print(elapsed_time)
+
+
+
+
+
