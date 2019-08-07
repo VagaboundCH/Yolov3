@@ -1,0 +1,26 @@
+GeneratedData
+|
+-> InitalImages
+|  |-> A-Z;0-9;/;-;.;:
+|
+-> TempFolder
+|  |-> A-Z;0-9;/;-;.;:
+|
+-> DistortedImages
+|  |-> A-Z;0-9;/;-;.;:
+|
+-> TailoredImages
+|  |-> A-Z;0-9;/;-;.;:
+|
+-> BackgroundImages
+|
+|
+-> SegmentedImages
+|
+|
+-> FinalImages
+|
+|
+-> XML-Files
+
+
