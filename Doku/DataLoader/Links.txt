@@ -1,0 +1,5 @@
+Folien:
+https://docs.google.com/presentation/d/1RDTpfkVDZCNDTz-cfCOy3wrJ8Ch6W_rif3G81nCDM8k/edit#slide=id.g26dd72242e_0_42
+
+Pytorch from zero to all:
+https://www.youtube.com/watch?v=zN49HdDxHi8&list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&index=8
