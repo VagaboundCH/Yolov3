@@ -31,8 +31,18 @@ https://datascience-enthusiast.com/DL/Autonomous_driving_Car_detection.html
 9 Optional Intersection over Union & Non max Suppression
 https://www.youtube.com/watch?v=ZraYartQ9AU
 
+Links IOU:
+https://medium.com/@pythonlessons0/yolo-v3-theory-explained-33100f6d193
+
+Network:
+https://medium.com/datadriveninvestor/object-detection-using-yolov3-using-keras-80bf35e61ce1
+
+Loss function:
+https://towardsdatascience.com/calculating-loss-of-yolo-v3-layer-8878bfaaf1ff
 
 
+Anchor boxes evalute size:
+https://stackoverflow.com/questions/52710248/anchor-boxes-in-yolo-how-are-they-decided
 
 start_time = time.time()
 time.sleep(5) 
