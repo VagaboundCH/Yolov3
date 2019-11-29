@@ -1,0 +1,36 @@
+https://stackoverflow.com/questions/58848237/yolo-anchor-box
+
+[yolo] 
+mask = 6,7,8
+***anchors = 10,13,  16,30,  33,23,  30,61,  62,45,  59,119,  116,90,  156,198,  373,326***
+
+anchors = anchor1_width, anchor1_height, anchor2_width, anchor2_height, ..., anchorN_width, anchorN_height
+
+
+
+
+As stated by other answer, the anchor boxes value in cfg file is only the initial value, later it will be resized to the closest predicted object. And you can generate your own anchor boxes using K-means as stated in other answer.
+
+Here's the important thing, the initial value will be resized. Refer to this explanation by AlexeyAB. https://github.com/pjreddie/darknet/issues/568
+
+    Anchors are initial sizes (width, height) some of which (the closest to the object size) will be resized to the object size - using some outputs from the neural network (final feature map):
+
+    darknet/src/yolo_layer.c
+
+    Lines 88 to 89 in 6f6e475
+
+     b.w = exp(x[index + 2*stride]) * biases[2*n]   / w;   
+     b.h = exp(x[index + 3*stride]) * biases[2*n+1] / h;  
+
+    x[...] - outputs of the neural network
+
+    biases[...] - anchors
+
+    b.w and b.h result width and height of bounded box that will be showed on the result image
+
+    Thus, the network should not predict the final size of the object, but should only adjust the size of the nearest anchor to the size of the object.
+
+    In Yolo v3 anchors (width, height) - are sizes of objects on the image that resized to the network size (width= and height= in the cfg-file).
+
+    In Yolo v2 anchors (width, height) - are sizes of objects relative to the final feature map (32 times smaller than in Yolo v3 for default cfg-files).
+

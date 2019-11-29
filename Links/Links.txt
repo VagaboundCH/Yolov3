@@ -48,6 +48,8 @@ https://medium.com/datadriveninvestor/object-detection-using-yolov3-using-keras-
 Loss function:
 https://towardsdatascience.com/calculating-loss-of-yolo-v3-layer-8878bfaaf1ff
 
+IOU funktioniert:
+https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
 
 Anchor boxes evalute size:
 https://stackoverflow.com/questions/52710248/anchor-boxes-in-yolo-how-are-they-decided
