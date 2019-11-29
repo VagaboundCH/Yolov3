@@ -34,6 +34,14 @@ https://www.youtube.com/watch?v=ZraYartQ9AU
 Links IOU:
 https://medium.com/@pythonlessons0/yolo-v3-theory-explained-33100f6d193
 
+
+
+README FIRST IOU and SUPERMAX
+https://www.analyticsvidhya.com/blog/2018/12/practical-guide-object-detection-yolo-framewor-python/
+
+IOU:
+https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/
+
 Network:
 https://medium.com/datadriveninvestor/object-detection-using-yolov3-using-keras-80bf35e61ce1
 
